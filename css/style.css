@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	color: #fff;
+	font-family: 'Staatliches', cursive;
+}
+
+.showcase {
+	content: '';
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+					  url(../img/darama.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+}
+
+.content {
+	position: absolute;
+	z-index: 1;
+	top: 210px;
+	right: 180px;
+	width: 300px;
+	height: 350px;
+	text-align: center;
+}
+
+.content .title {
+	font-size: 5rem;
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+
+.text {
+	line-height: 1.7;
+	margin-bottom: 2rem;
+}
+
+.footer-button {
+	margin: 10px 15px;
+	color: white;
+}
+
+.footer-button:hover {
+	cursor: pointer;
+	color: grey;
+}
