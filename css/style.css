@@ -47,3 +47,11 @@ body {
 	cursor: pointer;
 	color: grey;
 }
+
+@media(max-width: 500px) {
+
+	.showcase {
+		background-color: black;
+	}
+
+}
