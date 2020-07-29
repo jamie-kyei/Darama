@@ -48,10 +48,8 @@ body {
 	color: grey;
 }
 
-@media(max-width: 500px) {
-
-	.showcase {
-		background-color: black;
+@media screen (max-width: 500px) {
+	.content {
+		width: 100px;
 	}
-
 }
